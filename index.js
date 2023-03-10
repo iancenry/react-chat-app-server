@@ -9,7 +9,6 @@ const PORT = process.env.PORT || 5000
 
 require('dotenv').config()
 
-//allow cross origin requests
 app.use(cors())
 //parse json payloads from frontend to backend
 app.use(express.json())

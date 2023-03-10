@@ -27,7 +27,7 @@ if(!fs.existsSync(path.join(__dirname, '/logs'))){
 
 const signup = async (req, res) =>{
     try{
-        // get  data from the form
+        // get  data from form
         const {fullname, username, phoneNumber, password, confirmPassword, avatarImage} = req.body  
         //create unique id for the user
         const userID = crypto.randomBytes(16).toString('hex')
