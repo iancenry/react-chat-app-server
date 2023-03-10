@@ -8,4 +8,4 @@
 s
 * Dependencies used: bcrypt, cors, crypto, dotenv, express, getstream, nodemon, stream-chat
 
-Link to forntend: [Frontend code](https://github.com/iancenry/react-chat-app)  
+Link to frontend: [Frontend code](https://github.com/iancenry/react-chat-app)  
